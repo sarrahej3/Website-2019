@@ -1,0 +1,93 @@
+
+
+
+
+:root {
+  --primary1: #993F3B;
+  --primary2: #520A06;
+  --secondary11: #3A6E73;
+  --secondary12: #13464B;
+  --secondary21: #90AF58;
+  --secondary22: #6F8E36;
+  --textLight: white;
+  --textDark: black;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 80%;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  grid-template-rows: 60px 1fr 60px;
+  grid-template-areas:
+  "header header"
+  "aside main"
+  "footer footer";
+  grid-gap: 20px;
+}
+
+.sr-only{
+  position: absolute;
+  top: auto;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+header {
+  grid-area: header;
+  background: var(--secondary11);
+}
+main {
+  grid-area: main;
+}
+aside {
+  grid-area: aside;
+}
+footer {
+  grid-area: footer;
+}
+
+nav ul{
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: ;
+}
+
+.main-nav{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  background: ;
+}
+
+  .main-nav a{
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: capitalize;
+    color: var(--textLight);
+    background: var(--secondary11);
+    font-family: var(--navigationText);
+  }
+
+  .asideList{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--secondary12);
+    color: var(--textLight);
+  }

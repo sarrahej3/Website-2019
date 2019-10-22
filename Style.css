@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two&display=swap");
+
+
+main img{
+  width: 20%;
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right:  auto;
+}
+
+section img{
+  width: 25%;
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: inherit;
+}
+
+header img{
+  width: 15%;
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/* start of nav bar*/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #afc2fb;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+nav li a:hover:not(.active) {
+  background-color: #92a1ce;
+}
+
+.active {
+  background-color: #FFD040;
+}
+
+.main-nav{
+
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+.main-nav a{
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+
+/* end of nav bar*/
+
+.sr-only{
+  position: absolute;
+  top: auto;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+/* This is for title only */
+
+
+.title{
+  font-size: 250%;
+  line-height: 25px;
+  font-family: 'Shadows Into Light Two', cursive;
+  color: #fcd868;
+}
+/* This is the end of title of page */
+
+main ul{
+  color: #23236b;
+  font-family: 'Inconsolata', monospace;
+  font-size: 15px;
+  text-transform: capitalize;
+  grid-area: main;
+  list-style-type: circle;
+  text-align: left;
+  width: 300px;
+ border: 5px;
+ padding: 25px;
+ margin: 20px;
+}
+
+
+ h1{
+  font-family: 'Shadows Into Light Two', cursive;
+  color: #d09cd8;
+}
+
+
+ h2{
+   font-family: 'Shadows Into Light Two', cursive;
+  color: #d09cd8;
+}
+
+
+ h3{
+   font-family: 'Shadows Into Light Two', cursive;
+   color: #d09cd8;
+    }
+
+
+ h4{
+   position: absolute;
+   top: 550px;
+   right: 0;
+   width: 300px;
+  border: 5px;
+  padding: 5px;
+  margin: 20px;
+  font-family:'Shadows Into Light Two', cursive;
+  color: #d3a2db;
+}
+
+/*This is together */
+div{
+  position: absolute;
+  top: 600px;
+  right: 0;
+}
+
+.a {
+  width: 300px;
+ border: 5px;
+ padding: 15px;
+ margin: 20px;
+}
+/*This is together */
+
+
+
+ .paragraph{
+   width: 300px;
+  border: 5px;
+  padding: 5px;
+  margin: 20px;
+  font-size: 15px;
+  line-height: 25px;
+  font-family: 'Inconsolata', monospace;
+  color:#23236b;
+}
+
+
+
+
+
+footer{
+  grid-area: footer;
+  font-family: 'Inconsolata', monospace;
+  color: #92a1ce;
+}
