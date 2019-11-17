@@ -130,25 +130,11 @@ main ul{
 
 
 
- h1{
+ h1, h2, h3{
 
   font-family: 'Shadows Into Light Two', cursive;
   color: #d09cd8;
 }
-
-
-
-
- h2{
-   font-family: 'Shadows Into Light Two', cursive;
-  color: #d09cd8;
-}
-
-
- h3{
-   font-family: 'Shadows Into Light Two', cursive;
-   color: #d09cd8;
-    }
 
 
  h4{
