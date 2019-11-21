@@ -138,18 +138,18 @@ main ul{
 
 
  h4{
-   /* position: absolute;
+      /* position: absolute;
    top: 550px;
    right: 0;
    width: 300px;
   border: 5px;
   padding: 5px;
-  margin: 20px; */
+  margin: 20px;*/
   font-family:'Shadows Into Light Two', cursive;
   color: #d3a2db;
-}
+ }
 
-/* goal paragraph
+  /*  
 div{
   position: absolute;
   top: 600px;
