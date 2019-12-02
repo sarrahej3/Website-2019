@@ -40,7 +40,7 @@ section img{
 
 /* This is the "hero" img*/
 header img{
-  width: 14%;
+  width: 10px;
   border-radius: 8px;
   display: block;
   margin-left: auto;
@@ -149,7 +149,7 @@ main ul{
   color: #d3a2db;
  }
 
-  /*  
+  /*
 div{
   position: absolute;
   top: 600px;
