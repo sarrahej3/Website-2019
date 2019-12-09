@@ -4,12 +4,12 @@
   display: grid;
   width: 100vw;
   height: 60vh;
-  grid-template-columns: 442px, 442px, 442px;
-  grid-template-rows: 136px, 136px, 136px;
+  grid-template-columns: 442px 442px 442px;
+  grid-template-rows: 136px 136px 136px;
 
  }
 
-  /* .grid-2{
+   /* .grid-2{
   display: grid;
   width: 100vw;
   height: 60vh; */
@@ -153,6 +153,7 @@ main ul{
   font-family: 'Inconsolata', monospace;
   color:#171744;
 }
+
 
 .link{
   width: 300px;
